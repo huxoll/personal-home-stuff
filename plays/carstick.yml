@@ -1,0 +1,9 @@
+---
+
+- name: carstick.yml | All roles
+  hosts: self
+#  sudo: True
+
+  roles:
+    - { role: carstick,                   tags: ["carstick"] }
+#    - { role: ansible-nginx,            tags: ["nginx"] }

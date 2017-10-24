@@ -1,0 +1,11 @@
+---
+
+- name: Copy albums to destination volume
+  copy:
+      src="{{tunes_library}}/{{item}}"
+      dest="{{mount_home}}/{{carstick_name}}"
+  with_items:
+    - "ABBA/Mamma Mia The Musical"
+    - "Matt The Electrician/Accidental Thief"
+    - "Matt The Electrician/Animal Boy"
+
