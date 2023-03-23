@@ -1,0 +1,13 @@
+# Extra vars
+
+# Tunes Library; where is your music?
+tunes_library: /Volumes/Extra/MP3/
+
+# Where your USB stick will be mounted (e.g. /mnt for Linux, /Volumes for Mac)
+mount_home: "/Volumes"
+
+# Override the album list, unless you happen to have the same as me.
+album_list:
+  - "Matt The Electrician/Accidental Thief"
+  - "Matt The Electrician/Animal Boy"
+
